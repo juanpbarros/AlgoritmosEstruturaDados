@@ -6,7 +6,7 @@ public class Principal {
 		Scanner leitor = new Scanner(System.in);
 		Arvore objArvore = new Arvore();	
 		
-		int tamanho = 10000000;
+		int tamanho = 100;
 		for (int i = 0; i < tamanho; i++) {
 			objArvore.inserir((int) (tamanho * Math.random()));
 		}
